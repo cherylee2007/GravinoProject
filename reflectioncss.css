@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6; 
+    color: #1fa14b;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex; 
+    gap: 30px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.page-header {
+    background: url(27082904-5697-4925-bf4d-a95b1a6d354a.jpg); 
+    color: rgb(0, 0, 0);
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-header h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.reflection-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    flex: 1; 
+    min-width: 280px; 
+    transition: transform 0.3s ease;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.reflection-card:hover {
+    transform: translateY(-5px); 
+}
+
+.card-title {
+    margin-top: 0;
+    font-size: 1.4em;
+    border-bottom: 2px solid #ecf0f1; 
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.reflection-date {
+    font-size: 0.9em;
+    color: #3c4141;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.faith {
+    border-top: 5px solid #e7643c;
+    background: url(886ca55e-b917-4a5e-a20e-f96cdef791d7.jpg); 
+}
+
+.integrity {
+    border-top: 5px solid #2ecc71;
+    background: url(3488911f-6087-4f7d-9dc1-40d69a68dd3e.jpg);
+    color: white;
+    background-blend-mode:initial;
+    
+}
+
+.digital-citizenship {
+    border-top: 5px solid #3498db;
+    background: url(bfa5dfca-ce97-43e5-bccc-2e44dc217ab9.jpg);
+}
+
+.excellence {
+    border-top: 5px solid #f09425;
+    background: url(8750b63d-79b1-4617-839a-001e21608c0a.jpg); 
+    color: white;
+    background-blend-mode:initial;
+    
+}
+
+
+.page-footer {
+    text-align: center;
+    padding: 20px;
+    background: url(27082904-5697-4925-bf4d-a95b1a6d354a.jpg);
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;  
+    }
+
+    .page-header {
+        padding: 40px 10px;
+    }
+}
+
+.btn {
+    box-sizing: border-box 150px;
+    box-shadow: #333;
+    color:#3498db;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    background-color: #3498db ;
+    color: red;
+}
